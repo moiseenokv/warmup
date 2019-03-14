@@ -1,3 +1,3 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  return (parseFloat(temperature)*9/5) + 32;
 };
